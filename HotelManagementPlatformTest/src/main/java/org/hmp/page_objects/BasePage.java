@@ -6,18 +6,20 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by inet-tech on 05/12/17.
  */
 public class BasePage {
 
-    private FileInputStream fis;
-    protected WebDriver driver;
-    private Properties config = new Properties();
+    protected FileInputStream fis;
+    protected final WebDriver driver;
+    protected Properties config = new Properties();
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         try {
             fis = new FileInputStream(System.getProperty("user.dir") + "/src/main/resources/environment_testdata.properties");

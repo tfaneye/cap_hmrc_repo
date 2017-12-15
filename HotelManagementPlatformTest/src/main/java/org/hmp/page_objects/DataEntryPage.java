@@ -29,6 +29,11 @@ public class DataEntryPage extends BasePage {
         driver.findElement(emailField).sendKeys(email);
 
         driver.findElement(createButtonField).click();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         return new DataEntryPage(driver);
     }

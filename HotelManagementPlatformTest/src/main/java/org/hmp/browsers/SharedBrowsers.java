@@ -15,8 +15,8 @@ import java.util.Properties;
 public class SharedBrowsers {
 
     protected static WebDriver driver;
-    private FileInputStream fis;
-    private Properties config = new Properties();
+    protected static FileInputStream fis;
+    protected static Properties config = new Properties();
 
     public SharedBrowsers initialiseBrowser() throws Exception {
 
@@ -40,6 +40,7 @@ public class SharedBrowsers {
     }
 
     public BasePage setUpBrowser(){
+        driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         return new BasePage(driver);
     }

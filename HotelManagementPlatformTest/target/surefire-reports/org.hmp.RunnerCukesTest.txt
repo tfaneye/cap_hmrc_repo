@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.hmp.RunnerCukesTest
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 75.372 sec - in org.hmp.RunnerCukesTest

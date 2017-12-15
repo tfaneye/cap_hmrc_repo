@@ -1,16 +1,17 @@
 package org.hmp.hooks;
 
+import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import org.hmp.browsers.SharedBrowsers;
 import org.hmp.page_objects.BasePage;
-import org.junit.After;
+
 
 /**
  * Created by inet-tech on 05/12/17.
  */
 public class StepHooks {
 
-    private SharedBrowsers sharedBrowsers;
+    private final SharedBrowsers sharedBrowsers;
     protected BasePage basePage;
 
     public StepHooks(SharedBrowsers sharedBrowsers) {

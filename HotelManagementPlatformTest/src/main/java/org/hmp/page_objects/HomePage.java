@@ -1,6 +1,5 @@
 package org.hmp.page_objects;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -12,7 +11,7 @@ import java.util.Set;
 public class HomePage extends BasePage {
 
 
-    private By loginfield = By.linkText("Login");
+    private By loginField = By.linkText("Login");
     private By usernameField = By.id("username");
     private By passwordField = By.id("password");
     private By loginButtonField = By.id("doLogin");
@@ -23,7 +22,7 @@ public class HomePage extends BasePage {
 
     public DataEntryPage goToDataEntryPage(String username, String password){
         String mainHandle = driver.getWindowHandle();
-        driver.findElement(loginfield).click();
+        driver.findElement(loginField).click();
         Set<String> handles = driver.getWindowHandles();
         for(String handle : handles){
             if(!handle.equalsIgnoreCase(mainHandle)){
@@ -35,6 +34,7 @@ public class HomePage extends BasePage {
         driver.findElement(passwordField).sendKeys(password);
         driver.findElement(loginButtonField).click();
         driver.switchTo().window(mainHandle);
+
         return new DataEntryPage(driver);
     }
 }

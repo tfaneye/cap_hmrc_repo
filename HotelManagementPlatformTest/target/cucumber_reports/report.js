@@ -56,7 +56,7 @@ formatter.examples({
         "HMRC Hotel",
         "1, New Castle road",
         "Tunde",
-        "0123456789",
+        "0756438992",
         "tunde@email.com",
         "Tunde"
       ],
@@ -67,7 +67,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 16855994917,
+  "duration": 6520233557,
   "status": "passed"
 });
 formatter.scenario({
@@ -89,7 +89,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I enter the following customer details: \"HMRC Hotel\", \"1, New Castle road\", \"Tunde\", \"0123456789\", \"tunde@email.com\" and click on create button",
+  "name": "I enter the following customer details: \"HMRC Hotel\", \"1, New Castle road\", \"Tunde\", \"0756438992\", \"tunde@email.com\" and click on create button",
   "matchedColumns": [
     2,
     3,
@@ -121,7 +121,7 @@ formatter.match({
   "location": "CreateAnEntryTestSteps.iHaveSuccessfullySignedInWithAnd(String,String)"
 });
 formatter.result({
-  "duration": 4260783644,
+  "duration": 2885704417,
   "status": "passed"
 });
 formatter.match({
@@ -139,7 +139,7 @@ formatter.match({
       "offset": 77
     },
     {
-      "val": "0123456789",
+      "val": "0756438992",
       "offset": 86
     },
     {
@@ -150,7 +150,7 @@ formatter.match({
   "location": "CreateAnEntryTestSteps.iEnterTheFollowingCustomerDetailsAndClickOnCreateButton(String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 3719753175,
+  "duration": 8346803001,
   "status": "passed"
 });
 formatter.match({
@@ -163,7 +163,11 @@ formatter.match({
   "location": "CreateAnEntryTestSteps.iShouldSeeARecordContainingTheNameOfTheOwner(String)"
 });
 formatter.result({
-  "duration": 67450370,
+  "duration": 25230290,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 148158876,
   "status": "passed"
 });
 formatter.uri("sprint_one_features/create_multiple_entry.feature");
@@ -223,10 +227,10 @@ formatter.examples({
         "password",
         "HMRC 3 Star Hotel",
         "1, Newcastle road",
-        "John",
-        "0123456789",
-        "john@email.com",
-        "John"
+        "James",
+        "080038992",
+        "james@email.com",
+        "James"
       ],
       "line": 12,
       "id": "create-multiple-hotel-entry;test-to-create-multiple-customer-entry;test-data;2"
@@ -237,10 +241,10 @@ formatter.examples({
         "password",
         "HMRC 5 Star Hotel",
         "2, Newcastle road",
-        "Kelvin",
-        "0123456789",
-        "kelvin@email.com",
-        "Kelvin"
+        "Lewis",
+        "080038992",
+        "lewis@email.com",
+        "Lewis"
       ],
       "line": 13,
       "id": "create-multiple-hotel-entry;test-to-create-multiple-customer-entry;test-data;3"
@@ -251,10 +255,10 @@ formatter.examples({
         "password",
         "HMRC 7 Star Hotel",
         "3, Newcastle road",
-        "Brian",
-        "0123456789",
-        "brian@email.com",
-        "Brian"
+        "Comfort",
+        "080038992",
+        "comfort@email.com",
+        "Comfort"
       ],
       "line": 14,
       "id": "create-multiple-hotel-entry;test-to-create-multiple-customer-entry;test-data;4"
@@ -265,10 +269,10 @@ formatter.examples({
         "password",
         "HMRC 10 Star Hotel",
         "4, Newcastle road",
-        "Daniel",
-        "0123456789",
-        "daniel@email.com",
-        "Daniel"
+        "Nicole",
+        "080038992",
+        "nicole@email.com",
+        "Nicole"
       ],
       "line": 15,
       "id": "create-multiple-hotel-entry;test-to-create-multiple-customer-entry;test-data;5"
@@ -277,9 +281,8 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5151253,
-  "error_message": "java.lang.NullPointerException\n\tat org.hmp.browsers.SharedBrowsers.initialiseBrowser(SharedBrowsers.java:28)\n\tat org.hmp.hooks.StepHooks.setUpTest(StepHooks.java:23)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:262)\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)\n",
-  "status": "failed"
+  "duration": 2597226217,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 12,
@@ -300,7 +303,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I enter the following customer details: \"HMRC 3 Star Hotel\", \"1, Newcastle road\", \"John\", \"0123456789\", \"john@email.com\" and click on create button",
+  "name": "I enter the following customer details: \"HMRC 3 Star Hotel\", \"1, Newcastle road\", \"James\", \"080038992\", \"james@email.com\" and click on create button",
   "matchedColumns": [
     2,
     3,
@@ -312,7 +315,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "I should see a record containing the name of the owner \"John\"",
+  "name": "I should see a record containing the name of the owner \"James\"",
   "matchedColumns": [
     7
   ],
@@ -332,7 +335,8 @@ formatter.match({
   "location": "CreateAnEntryTestSteps.iHaveSuccessfullySignedInWithAnd(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2139770123,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -345,39 +349,44 @@ formatter.match({
       "offset": 62
     },
     {
-      "val": "John",
+      "val": "James",
       "offset": 83
     },
     {
-      "val": "0123456789",
-      "offset": 91
+      "val": "080038992",
+      "offset": 92
     },
     {
-      "val": "john@email.com",
+      "val": "james@email.com",
       "offset": 105
     }
   ],
   "location": "CreateAnEntryTestSteps.iEnterTheFollowingCustomerDetailsAndClickOnCreateButton(String,String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 9228444752,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "John",
+      "val": "James",
       "offset": 56
     }
   ],
   "location": "CreateAnEntryTestSteps.iShouldSeeARecordContainingTheNameOfTheOwner(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 13585623,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 123046987,
+  "status": "passed"
 });
 formatter.before({
-  "duration": 199135,
-  "error_message": "java.lang.NullPointerException\n\tat org.hmp.browsers.SharedBrowsers.initialiseBrowser(SharedBrowsers.java:28)\n\tat org.hmp.hooks.StepHooks.setUpTest(StepHooks.java:23)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:262)\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)\n",
-  "status": "failed"
+  "duration": 2818112474,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 13,
@@ -398,7 +407,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I enter the following customer details: \"HMRC 5 Star Hotel\", \"2, Newcastle road\", \"Kelvin\", \"0123456789\", \"kelvin@email.com\" and click on create button",
+  "name": "I enter the following customer details: \"HMRC 5 Star Hotel\", \"2, Newcastle road\", \"Lewis\", \"080038992\", \"lewis@email.com\" and click on create button",
   "matchedColumns": [
     2,
     3,
@@ -410,7 +419,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "I should see a record containing the name of the owner \"Kelvin\"",
+  "name": "I should see a record containing the name of the owner \"Lewis\"",
   "matchedColumns": [
     7
   ],
@@ -430,7 +439,8 @@ formatter.match({
   "location": "CreateAnEntryTestSteps.iHaveSuccessfullySignedInWithAnd(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2226688353,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -443,39 +453,44 @@ formatter.match({
       "offset": 62
     },
     {
-      "val": "Kelvin",
+      "val": "Lewis",
       "offset": 83
     },
     {
-      "val": "0123456789",
-      "offset": 93
+      "val": "080038992",
+      "offset": 92
     },
     {
-      "val": "kelvin@email.com",
-      "offset": 107
+      "val": "lewis@email.com",
+      "offset": 105
     }
   ],
   "location": "CreateAnEntryTestSteps.iEnterTheFollowingCustomerDetailsAndClickOnCreateButton(String,String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8957299189,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Kelvin",
+      "val": "Lewis",
       "offset": 56
     }
   ],
   "location": "CreateAnEntryTestSteps.iShouldSeeARecordContainingTheNameOfTheOwner(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 16893758,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 80913556,
+  "status": "passed"
 });
 formatter.before({
-  "duration": 20848468,
-  "error_message": "java.lang.NullPointerException\n\tat org.hmp.browsers.SharedBrowsers.initialiseBrowser(SharedBrowsers.java:28)\n\tat org.hmp.hooks.StepHooks.setUpTest(StepHooks.java:23)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:262)\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)\n",
-  "status": "failed"
+  "duration": 2425536510,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 14,
@@ -496,7 +511,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I enter the following customer details: \"HMRC 7 Star Hotel\", \"3, Newcastle road\", \"Brian\", \"0123456789\", \"brian@email.com\" and click on create button",
+  "name": "I enter the following customer details: \"HMRC 7 Star Hotel\", \"3, Newcastle road\", \"Comfort\", \"080038992\", \"comfort@email.com\" and click on create button",
   "matchedColumns": [
     2,
     3,
@@ -508,7 +523,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "I should see a record containing the name of the owner \"Brian\"",
+  "name": "I should see a record containing the name of the owner \"Comfort\"",
   "matchedColumns": [
     7
   ],
@@ -528,7 +543,8 @@ formatter.match({
   "location": "CreateAnEntryTestSteps.iHaveSuccessfullySignedInWithAnd(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2244585277,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -541,39 +557,44 @@ formatter.match({
       "offset": 62
     },
     {
-      "val": "Brian",
+      "val": "Comfort",
       "offset": 83
     },
     {
-      "val": "0123456789",
-      "offset": 92
+      "val": "080038992",
+      "offset": 94
     },
     {
-      "val": "brian@email.com",
-      "offset": 106
+      "val": "comfort@email.com",
+      "offset": 107
     }
   ],
   "location": "CreateAnEntryTestSteps.iEnterTheFollowingCustomerDetailsAndClickOnCreateButton(String,String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8721957606,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Brian",
+      "val": "Comfort",
       "offset": 56
     }
   ],
   "location": "CreateAnEntryTestSteps.iShouldSeeARecordContainingTheNameOfTheOwner(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 19766112,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 68480825,
+  "status": "passed"
 });
 formatter.before({
-  "duration": 245121,
-  "error_message": "java.lang.NullPointerException\n\tat org.hmp.browsers.SharedBrowsers.initialiseBrowser(SharedBrowsers.java:28)\n\tat org.hmp.hooks.StepHooks.setUpTest(StepHooks.java:23)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:262)\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)\n",
-  "status": "failed"
+  "duration": 2515235146,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 15,
@@ -594,7 +615,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I enter the following customer details: \"HMRC 10 Star Hotel\", \"4, Newcastle road\", \"Daniel\", \"0123456789\", \"daniel@email.com\" and click on create button",
+  "name": "I enter the following customer details: \"HMRC 10 Star Hotel\", \"4, Newcastle road\", \"Nicole\", \"080038992\", \"nicole@email.com\" and click on create button",
   "matchedColumns": [
     2,
     3,
@@ -606,7 +627,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "I should see a record containing the name of the owner \"Daniel\"",
+  "name": "I should see a record containing the name of the owner \"Nicole\"",
   "matchedColumns": [
     7
   ],
@@ -626,7 +647,8 @@ formatter.match({
   "location": "CreateAnEntryTestSteps.iHaveSuccessfullySignedInWithAnd(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2199140961,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -639,34 +661,40 @@ formatter.match({
       "offset": 63
     },
     {
-      "val": "Daniel",
+      "val": "Nicole",
       "offset": 84
     },
     {
-      "val": "0123456789",
+      "val": "080038992",
       "offset": 94
     },
     {
-      "val": "daniel@email.com",
-      "offset": 108
+      "val": "nicole@email.com",
+      "offset": 107
     }
   ],
   "location": "CreateAnEntryTestSteps.iEnterTheFollowingCustomerDetailsAndClickOnCreateButton(String,String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8944110686,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Daniel",
+      "val": "Nicole",
       "offset": 56
     }
   ],
   "location": "CreateAnEntryTestSteps.iShouldSeeARecordContainingTheNameOfTheOwner(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 41386641,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 81541415,
+  "status": "passed"
 });
 formatter.uri("sprint_one_features/login.feature");
 formatter.feature({
@@ -683,9 +711,8 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 296796,
-  "error_message": "java.lang.NullPointerException\n\tat org.hmp.browsers.SharedBrowsers.initialiseBrowser(SharedBrowsers.java:28)\n\tat org.hmp.hooks.StepHooks.setUpTest(StepHooks.java:23)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:262)\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)\n",
-  "status": "failed"
+  "duration": 2674693076,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 7,
@@ -714,7 +741,8 @@ formatter.match({
   "location": "LoginTestSteps.iAmOnTheHomePageOfTheHotelApplication()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 775011151,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -730,7 +758,8 @@ formatter.match({
   "location": "LoginTestSteps.iSupplyUsernameAndPassword(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1473241637,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -742,6 +771,11 @@ formatter.match({
   "location": "LoginTestSteps.iShouldSeeALogout(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 686742165,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 121691576,
+  "status": "passed"
 });
 });

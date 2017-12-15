@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
  * Created by inet-tech on 05/12/17.
  */
 public class DeleteEntryPage extends BasePage{
-    private By deletefield = By.className("glyphicon_glyphicon-remove_hotelDelete");
+    private By deleteField = By.className("glyphicon_glyphicon-remove_hotelDelete");
 
     public DeleteEntryPage(WebDriver driver) {
         super(driver);
@@ -15,7 +15,7 @@ public class DeleteEntryPage extends BasePage{
 
     public DeleteEntryPage deleteAnEntry(){
 
-        driver.findElement(deletefield).click();
+        driver.findElement(deleteField).click();
         return new DeleteEntryPage(driver);
 
     }
