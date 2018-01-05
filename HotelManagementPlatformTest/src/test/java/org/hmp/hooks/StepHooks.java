@@ -25,7 +25,7 @@ public class StepHooks {
                 .setUpBrowser();
     }
 
-    @After
+   // @After
     public void tearDownTest(){
         sharedBrowsers
                 .tearDownBrowser();
